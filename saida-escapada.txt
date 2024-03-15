@@ -1,0 +1,107 @@
+  &lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Cadastro De Astronautas&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h2&gt;Cadastro Da Liga Dos Astronautas&lt;/h2&gt;
+
+    &lt;form action="https://www.example.com"&gt;
+      &lt;label for="name"&gt;Nome: &lt;/label&gt;
+      &lt;input
+        type="text"
+        name="name"
+        id="name"
+        autocomplete="off"
+        required
+      /&gt;&lt;br /&gt;&lt;br /&gt;
+
+      &lt;label for="email"&gt;Email: &lt;/label&gt;
+      &lt;input type="email" name="email" id="email" autocomplete="off" required /&gt;
+
+      &lt;label for="password"&gt; - Password: &lt;/label&gt;
+      &lt;input
+        type="password"
+        name="password"
+        id="password"
+        autocomplete="off"
+        required
+      /&gt;&lt;br /&gt;&lt;br /&gt;
+
+      &lt;label for="data"&gt;Data De Nascimento: &lt;/label&gt;
+      &lt;input
+        type="date"
+        name="data"
+        id="data"
+        autocomplete="off"
+        placeholder="dd/mm/aaaa"
+        required
+      /&gt;
+
+      &lt;label for="photo"&gt; - Foto: &lt;/label&gt;
+      &lt;input
+        type="file"
+        name="photo"
+        id="photo"
+        autocomplete="off"
+        placeholder="Escolher Arquivo"
+        required
+      /&gt;&lt;br /&gt;&lt;br /&gt;
+
+      &lt;label for="nationality"&gt;Nacionalidade: &lt;/label&gt;
+      &lt;select name="nationality" id="nationality"&gt;
+        &lt;option value="russian"&gt;Rússia&lt;/option&gt;
+        &lt;option value="american"&gt;Americano&lt;/option&gt;
+        &lt;option value="brazilian"&gt;Brasileiro&lt;/option&gt;
+      &lt;/select&gt;
+
+      - Gênero:
+      &lt;label for="female"&gt;F&lt;/label&gt;
+      &lt;input type="radio" name="gender" id="female" value="female" /&gt;
+      &lt;label for="mascule"&gt;M&lt;/label&gt;
+      &lt;input
+        type="radio"
+        name="gender"
+        id="mascule"
+        value="mascule"
+      /&gt;&lt;br /&gt;&lt;br /&gt;
+
+      &lt;label for="q"&gt;Suas Principais Qualidades: &lt;/label&gt;&lt;br /&gt;
+
+      &lt;label for="Inteligência"&gt;Inteligência &lt;/label&gt;
+      &lt;input
+        type="checkbox"
+        name="Qualidades"
+        id="Inteligência"
+        value="Inteligência"
+      /&gt;
+      &lt;label for="Resiliência"&gt; | Resiliência &lt;/label&gt;
+      &lt;input
+        type="checkbox"
+        name="Qualidades"
+        id="Resiliência"
+        value="Resiliência"
+      /&gt;
+      &lt;label for="Preparo Físico"&gt; | Preparo Físico &lt;/label&gt;
+      &lt;input
+        type="checkbox"
+        name="Qualidades"
+        id="Preparo Físico"
+        value="Preparo Físico"
+      /&gt;
+      &lt;label for="Educação"&gt; | Educação &lt;/label&gt;
+      &lt;input type="checkbox" name="Qualidades" id="Educação" value="Educação" /&gt;
+      |&lt;br /&gt;&lt;br /&gt;
+
+      &lt;textarea
+        name="description"
+        id="description"
+        cols="30"
+        rows="10"
+        placeholder="Por que você gostaria de ser um(a) astronauta?"
+      &gt;&lt;/textarea
+      &gt;&lt;br /&gt;&lt;br /&gt;
+      &lt;input type="submit" value="Criar" /&gt;
+    &lt;/form&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
